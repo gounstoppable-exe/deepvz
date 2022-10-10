@@ -495,13 +495,12 @@ nav {
 }
 
 .projectCard img {
-    /* width: 35vw; */
     width: 100%;
     transition: 0.3s ease-in-out;
 }
 
 .projectCard img:hover {
-    filter: brightness(2);
+    filter: grayscale(1);
 }
 
 .projectCard .textGroup {
