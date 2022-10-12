@@ -137,7 +137,7 @@ main {
 }
 
 .thirdBtn:hover {
-    letter-spacing: -0.5px;
+    letter-spacing: 0.5px;
     text-decoration: underline;
 }
 
@@ -520,6 +520,12 @@ nav {
     margin-top: 1rem;
 }
 
+.portfolioBtn {
+    width: 100%;
+    display: flex; justify-content: center; align-items: center;
+    margin-top: 8rem;
+}
+
 /* ====== CONTACT ME SECTION ====== */
 .contact {
     width: 100%;
@@ -553,17 +559,17 @@ nav {
     display: flex;
 }
 
-.socialIcons a {
+.iconSocial a {
     color: var(--blue);
     font-size: var(--heading2-font-size);
     transition: 0.3s ease-in-out;
 }
 
-.socialIcons a:hover {
+.iconSocial a:hover {
     color: var(--white);
 }
 
-.socialIcons a:not(:nth-child(1)) {
+.iconSocial:not(:nth-child(1)) {
     margin-left: 2.5rem;
 }
 
